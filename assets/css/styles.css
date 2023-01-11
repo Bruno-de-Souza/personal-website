@@ -505,47 +505,36 @@ img {
 }
 
 .skills_html {
-  width: 90%;
+  width: 70%;
 }
 
 .skills_css {
-  width: 80%;
-}
-
-.skills_js {
-  width: 60%;
-}
-
-.skills_react {
-  width: 85%;
-}
-
-.skills_php {
-  width: 80%;
-}
-
-.skills_node {
-  width: 60%;
-}
-
-.skills_firebase {
-  width: 60%;
-}
-
-.skills_python {
   width: 55%;
 }
 
-.skills_figma {
-  width: 90%;
+.skills_js {
+  width: 65%;
 }
 
-.skills_sketch {
+.skills_react {
+  width: 50%;
+}
+
+
+.skills_node {
+  width: 50%;
+}
+
+.skills_sql {
+  width: 45%;
+}
+
+.skills_incidentes {
   width: 85%;
 }
 
-.skills_photoshop {
-  width: 85%;
+.skills_testes {
+  width: 65%;
 }
 
 .skills_close .skills_list {
