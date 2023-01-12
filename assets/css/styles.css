@@ -537,6 +537,10 @@ img {
   width: 65%;
 }
 
+.skills_sf {
+  width: 85%;
+}
+
 .skills_close .skills_list {
   height: 0;
   overflow: hidden;
@@ -776,35 +780,6 @@ img {
 .swiper-button-next,
 .swiper-pagination-bullet {
   outline: none;
-}
-
-/*==================== PROJECT IN MIND ====================*/
-.project {
-  text-align: center;
-}
-
-.project_bg {
-  background-color: var(--first-color-second);
-  padding-top: 3rem;
-}
-
-.project_title {
-  font-size: var(--h2-font-size);
-  margin-bottom: var(--mb-0-75);
-}
-
-.project_description {
-  margin-bottom: var(--mb-1-5);
-}
-
-.project_title,
-.project_description {
-  color: #fff;
-}
-
-.project_img {
-  width: 232px;
-  justify-self: center;
 }
 
 /*==================== TESTIMONIAL ====================*/
