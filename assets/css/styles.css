@@ -1180,10 +1180,4 @@ img {
   .swiper-container-horizontal > .swiper-pagination-bullets {
     bottom: -4.5rem;
   }
-  .contact_form {
-    width: 460px;
-  }
-  .contact_inputs {
-    grid-template-columns: repeat(2, 1fr);
-  }
 }
