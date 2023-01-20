@@ -398,6 +398,22 @@ img {
   background-color: transparent;
   color: var(--first-color-alt);
 }
+
+.nav_language{
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  display: flex;
+  gap: 0.5rem;
+  color: var(--first-color);
+  font-weight: var(--font-medium);
+  padding: solid 1px;
+}
+
+.nav_language:hover{
+  color: var(--first-color-lighter);
+}
 /*==================== ABOUT ====================*/
 .about_img {
   width: 200px;
