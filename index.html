@@ -24,20 +24,18 @@
     <header class="header" id="header">
       <nav class="nav container">
         <div>
-          <ul class="nav_language">
-            <a href="#" class="nav_language">
-              <li>PT</li>
-            </a>
-            <a href="#" class="nav_language">
-              <li>EN</li>
-            </a>
-          </ul>
+          <button class="button--lang nav_language" onclick="changeLanguage('pt')">
+            PT<i class="uil button_icon"></i>
+          </button>
+          <button class="button--lang nav_language" onclick="changeLanguage('eng')">
+            ENG<i class="uil button_icon"></i>
+          </button>
         </div>
         <a href="#" class="nav_logo">BRUNO</a>
         <div class="nav_menu" id="nav-menu">
-          <ul class="nav_list grid">
+            <ul class="nav_list grid">
             <li class="nav_item">
-              <a href="#home" class="nav_link active-link">
+              <a id="siteContent" href="" class="nav_link active-link">
                 <i class="uil uil-estate nav_icon"></i> INICIO
               </a>
             </li>

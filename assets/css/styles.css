@@ -399,20 +399,25 @@ img {
   color: var(--first-color-alt);
 }
 
+.button--lang {
+  outline: none;
+  border: none;
+}
+
 .nav_language{
-  list-style: none;
   align-items: center;
-  justify-content: center;
+  align-content: center;
   align-self: center;
-  display: flex;
-  gap: 0.5rem;
-  color: var(--first-color);
+  background-color: transparent;
+  color: var(--title-color);
+  padding: 0.1px;  
+  border-radius: none;
   font-weight: var(--font-medium);
-  padding: solid 1px;
+  font-size: var(--small-font-size);
 }
 
 .nav_language:hover{
-  color: var(--first-color-lighter);
+  color: var(--first-color);
 }
 /*==================== ABOUT ====================*/
 .about_img {

@@ -193,3 +193,36 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+
+/*==================== CHANGE THE LANGUAGE ====================*/
+
+// Create a function to change the hash value of the page
+function changeLanguage(lang) {
+  location.hash = lang;
+  location.reload();
+}
+
+// Define the language reload anchors
+var language = {
+  eng: {
+    home: "HOME"
+  },
+  pt: {
+    home: "INICIO"
+  }
+}
+
+// Check if a hash value exists in the URL
+if (window.location.hash) {
+       // Set the content of the webpage 
+      // depending on the hash value
+      if (window.location.hash == "#eng") {
+        siteContent.textContent =
+          language.eng.home;
+      }
+      else if (window.location.hash == "#pt") {
+        siteContent.textContent =
+          language.pt.home;
+  }
+
+}
