@@ -205,10 +205,12 @@ function changeLanguage(lang) {
 // Define the language reload anchors
 var language = {
   eng: {
-    home: "HOME"
+    home: "HOME",
+    about: "ABOUT"
   },
   pt: {
-    home: "INICIO"
+    home: "INICIO",
+    about: "SOBRE"
   }
 }
 
@@ -223,6 +225,17 @@ if (window.location.hash) {
       else if (window.location.hash == "#pt") {
         siteContent.textContent =
           language.pt.home;
-  }
-
+      }
+}
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent2.textContent =
+     language.eng.about;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent2.textContent =
+     language.pt.about;
+ }
 }
