@@ -236,6 +236,8 @@ var language = {
     qualification4: "Work",
     qualification5: "Unicesumar - Brazil",
     qualification6: "Software Engineering",
+    qualification7: "DP900 Certification",
+    qualification8: "Microsoft Certified",
   },
   pt: {
     home: "INÍCIO",
@@ -269,6 +271,8 @@ var language = {
     qualification4: "Trabalho",
     qualification5: "Unicesumar - Brasil",
     qualification6: "Engenharia de Software",
+    qualification7: "Certificação DP900",
+    qualification8: "Microsoft Certificado",
   }
 }
 
@@ -660,5 +664,31 @@ if (window.location.hash) {
  else if (window.location.hash == "#pt") {
    siteContent30.textContent =
      language.pt.qualification5;
+ }
+}
+
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent31.textContent =
+     language.eng.qualification7;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent31.textContent =
+     language.pt.qualification7;
+ }
+}
+
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent32.textContent =
+     language.eng.qualification8;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent32.textContent =
+     language.pt.qualification8;
  }
 }
