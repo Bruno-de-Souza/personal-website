@@ -238,6 +238,10 @@ var language = {
     qualification6: "Software Engineering",
     qualification7: "DP900 Certification",
     qualification8: "Microsoft Certified",
+    qualification9: "AZ900 Certification",
+    qualification10: "AI900 Certification",
+    qualification11: "Computer Network",
+    qualification12: "Senac MG - Brazil",
   },
   pt: {
     home: "INÍCIO",
@@ -273,6 +277,10 @@ var language = {
     qualification6: "Engenharia de Software",
     qualification7: "Certificação DP900",
     qualification8: "Microsoft Certificado",
+    qualification9: "Certificação AZ900",
+    qualification10: "Certificação AI900",
+    qualification11: "Redes de Computadores",
+    qualification12: "Senac MG - Brasil",
   }
 }
 
@@ -690,5 +698,85 @@ if (window.location.hash) {
  else if (window.location.hash == "#pt") {
    siteContent32.textContent =
      language.pt.qualification8;
+ }
+}
+
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent33.textContent =
+     language.eng.qualification9;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent33.textContent =
+     language.pt.qualification9;
+ }
+}
+
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent34.textContent =
+     language.eng.qualification8;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent34.textContent =
+     language.pt.qualification8;
+ }
+}
+
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent35.textContent =
+     language.eng.qualification10;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent35.textContent =
+     language.pt.qualification10;
+ }
+}
+
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent36.textContent =
+     language.eng.qualification8;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent36.textContent =
+     language.pt.qualification8;
+ }
+}
+
+
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent37.textContent =
+     language.eng.qualification11;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent37.textContent =
+     language.pt.qualification11
+ }
+}
+
+
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent38.textContent =
+     language.eng.qualification12;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent38.textContent =
+     language.pt.qualification12;
  }
 }
