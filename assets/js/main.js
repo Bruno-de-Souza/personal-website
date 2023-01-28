@@ -242,6 +242,12 @@ var language = {
     qualification10: "AI900 Certification",
     qualification11: "Computer Network",
     qualification12: "Senac MG - Brazil",
+    qualification13: "Telecommunications Technician",
+    qualification14: "Claro - Brazil",
+    qualification15: "Computer Technician",
+    qualification16: "TECHINFOR - Brazil",
+    qualification17: "Functional SalesForce",
+    qualification18: "ARCELORMITTAL - Brazil",
   },
   pt: {
     home: "INÍCIO",
@@ -281,6 +287,13 @@ var language = {
     qualification10: "Certificação AI900",
     qualification11: "Redes de Computadores",
     qualification12: "Senac MG - Brasil",
+    qualification13: "Técnico em Telecomunicações",
+    qualification14: "Claro - Brasil",
+    qualification15: "Técnico em Informática",
+    qualification16: "TECHINFOR - Brasil",
+    qualification17: "Funcional SalesForce",
+    qualification18: "ARCELORMITTAL - Brasil",
+
   }
 }
 
@@ -778,5 +791,98 @@ if (window.location.hash) {
  else if (window.location.hash == "#pt") {
    siteContent38.textContent =
      language.pt.qualification12;
+ }
+}
+
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent39.textContent =
+     language.eng.qualification13;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent39.textContent =
+     language.pt.qualification13;
+ }
+}
+
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent40.textContent =
+     language.eng.qualification14;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent40.textContent =
+     language.pt.qualification14;
+ }
+}
+
+
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent40.textContent =
+     language.eng.qualification14;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent40.textContent =
+     language.pt.qualification14;
+ }
+}
+
+
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent41.textContent =
+     language.eng.qualification15;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent41.textContent =
+     language.pt.qualification15;
+ }
+}
+
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent42.textContent =
+     language.eng.qualification16;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent42.textContent =
+     language.pt.qualification16;
+ }
+}
+
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent43.textContent =
+     language.eng.qualification17;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent43.textContent =
+     language.pt.qualification17;
+ }
+}
+
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent44.textContent =
+     language.eng.qualification18;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent44.textContent =
+     language.pt.qualification18;
  }
 }
