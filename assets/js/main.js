@@ -248,6 +248,9 @@ var language = {
     qualification16: "TECHINFOR - Brazil",
     qualification17: "Functional SalesForce",
     qualification18: "ARCELORMITTAL - Brazil",
+    qualification19: "Portfolio",
+    qualification20: "Recents Projects",
+    qualification21: "Demonstration",
   },
   pt: {
     home: "INÍCIO",
@@ -293,7 +296,9 @@ var language = {
     qualification16: "TECHINFOR - Brasil",
     qualification17: "Funcional SalesForce",
     qualification18: "ARCELORMITTAL - Brasil",
-
+    qualification19: "Portfólio",
+    qualification20: "Trabalhos mais recentes",
+    qualification21: "Demonstração",
   }
 }
 
@@ -820,7 +825,6 @@ if (window.location.hash) {
  }
 }
 
-
 if (window.location.hash) {
   // Set the content of the webpage 
  // depending on the hash value
@@ -833,7 +837,6 @@ if (window.location.hash) {
      language.pt.qualification14;
  }
 }
-
 
 if (window.location.hash) {
   // Set the content of the webpage 
@@ -884,5 +887,44 @@ if (window.location.hash) {
  else if (window.location.hash == "#pt") {
    siteContent44.textContent =
      language.pt.qualification18;
+ }
+}
+
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent45.textContent =
+     language.eng.qualification19;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent45.textContent =
+     language.pt.qualification19;
+ }
+}
+
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent46.textContent =
+     language.eng.qualification20;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent46.textContent =
+     language.pt.qualification20;
+ }
+}
+
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent47.textContent =
+     language.eng.qualification21;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent47.textContent =
+     language.pt.qualification21;
  }
 }
