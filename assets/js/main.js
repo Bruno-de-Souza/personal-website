@@ -251,6 +251,7 @@ var language = {
     qualification19: "Portfolio",
     qualification20: "Recents Projects",
     qualification21: "Demonstration",
+    qualification22: "Photographer | Website",
   },
   pt: {
     home: "INÍCIO",
@@ -299,6 +300,7 @@ var language = {
     qualification19: "Portfólio",
     qualification20: "Trabalhos mais recentes",
     qualification21: "Demonstração",
+    qualification22: "Website | Fotógrafo",
   }
 }
 
@@ -829,19 +831,6 @@ if (window.location.hash) {
   // Set the content of the webpage 
  // depending on the hash value
  if (window.location.hash == "#eng") {
-   siteContent40.textContent =
-     language.eng.qualification14;
- }
- else if (window.location.hash == "#pt") {
-   siteContent40.textContent =
-     language.pt.qualification14;
- }
-}
-
-if (window.location.hash) {
-  // Set the content of the webpage 
- // depending on the hash value
- if (window.location.hash == "#eng") {
    siteContent41.textContent =
      language.eng.qualification15;
  }
@@ -926,5 +915,18 @@ if (window.location.hash) {
  else if (window.location.hash == "#pt") {
    siteContent47.textContent =
      language.pt.qualification21;
+ }
+}
+
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent48.textContent =
+     language.eng.qualification22;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent48.textContent =
+     language.pt.qualification22;
  }
 }
