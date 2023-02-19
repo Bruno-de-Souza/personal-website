@@ -252,6 +252,7 @@ var language = {
     qualification20: "Recents Projects",
     qualification21: "Demonstration",
     qualification22: "Photographer | Website",
+    qualification23: "News Site | NewsFlash",
   },
   pt: {
     home: "INÍCIO",
@@ -301,6 +302,7 @@ var language = {
     qualification20: "Trabalhos mais recentes",
     qualification21: "Demonstração",
     qualification22: "Website | Fotógrafo",
+    qualification23: "Site de Notícias | NewsFlash",
   }
 }
 
@@ -928,5 +930,44 @@ if (window.location.hash) {
  else if (window.location.hash == "#pt") {
    siteContent48.textContent =
      language.pt.qualification22;
+ }
+}
+
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent49.textContent =
+     language.eng.qualification21;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent49.textContent =
+     language.pt.qualification21;
+ }
+}
+
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent50.textContent =
+     language.eng.qualification23;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent50.textContent =
+     language.pt.qualification23;
+ }
+}
+
+if (window.location.hash) {
+  // Set the content of the webpage 
+ // depending on the hash value
+ if (window.location.hash == "#eng") {
+   siteContent51.textContent =
+     language.eng.qualification21;
+ }
+ else if (window.location.hash == "#pt") {
+   siteContent51.textContent =
+     language.pt.qualification21;
  }
 }
