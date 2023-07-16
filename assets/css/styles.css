@@ -525,41 +525,17 @@ img {
   background-color: var(--first-color);
 }
 
-.skills_html {
-  width: 70%;
-}
-
-.skills_css {
-  width: 55%;
-}
-
-.skills_js {
-  width: 65%;
-}
-
-.skills_react {
-  width: 50%;
-}
-
-
-.skills_node {
-  width: 50%;
-}
-
-.skills_sql {
-  width: 45%;
-}
 
 .skills_incidentes {
-  width: 85%;
+  width: 90%;
 }
 
 .skills_testes {
-  width: 65%;
+  width: 80%;
 }
 
 .skills_sf {
-  width: 85%;
+  width: 75%;
 }
 
 .skills_close .skills_list {
