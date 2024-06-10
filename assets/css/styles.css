@@ -1061,9 +1061,7 @@ img {
     padding-top: 5.5rem;
     column-gap: 2rem;
   }
-  .home_blob {
-    width: 270px;
-  }
+
   .home_scroll {
     display: block;
   }
@@ -1071,7 +1069,7 @@ img {
     margin-left: 3rem;
   }
   .about_container {
-    column-gap: 5rem;
+    column-gap: 25rem;
   }
   .about_img {
     width: 350px;
