@@ -11,15 +11,21 @@ document.addEventListener('DOMContentLoaded', function() {
             home: {
                 title: "Bruno",
                 subtitle: "Software Engineer",
-                contactButton: "Contact"
+                contactButton: "Contact",
+                down: "GO DOWN"
             },
             skills: {
                 title: "Skills",
                 salesforceDeveloper: "SalesForce Developer",
-                salesforceAdmin: "Salesforce Administrator | Analyst",
-                // Add more translations as needed
+                skillsDeveloper: "Apex Development | Triggers | Future Methods | DML | Asynchronous Apex",
+                skillsDeveloperII: "LWC Components | JavaScript | HTML | CSS",
+                skillsDeveloperIII: "Development of REST/SOAP APIs integrations "
             },
-            // Add more sections as needed
+            skillsII: {
+                salesforceAdministrator: "Salesforce Administrator | Analyst"
+            }
+
+
         },
         pt: {
             title: "Bruno | Dev Salesforce",
@@ -36,11 +42,8 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             skills: {
                 title: "Habilidades",
-                salesforceDeveloper: "SalesForce Developer",
-                salesforceAdmin: "Salesforce Administrador | Analista",
-                // Add more translations as needed
-            },
-            // Add more sections as needed
+                salesforceDeveloper: "SalesForce Developer"
+            }
         }
     };
 
@@ -54,12 +57,15 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('.home_title').textContent = content[language].home.title;
         document.querySelector('.home_subtitle').textContent = content[language].home.subtitle;
         document.querySelector('.button.button--flex').textContent = content[language].home.contactButton;
+        document.querySelector('.home_scroll-name').textContent = content[language].home.down;
 
         document.querySelector('.section_title').textContent = content[language].skills.title;
         document.querySelector('.skills_title').textContent = content[language].skills.salesforceDeveloper;
-        document.querySelector('.skills_subtitle').textContent = content[language].skills.salesforceAdmin;
+        document.getElementById('1').textContent = content[language].skills.skillsDeveloper;
+        document.getElementById('2').textContent = content[language].skills.skillsDeveloperII;
+        document.getElementById('3').textContent = content[language].skills.skillsDeveloperIII;
+        document.getElementById('4').textContent = content[language].skillsII.salesforceAdministrator;
 
-        // Update more sections as needed
     }
 
     document.querySelector('.fi.fi-us').addEventListener('click', function() {
