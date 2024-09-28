@@ -14,6 +14,9 @@
   <!--==================== CSS ====================-->
   <link rel="stylesheet" href="./assets/css/styles.css" />
 
+  <!--==================== flag-icons ==================-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css"/>
+
   <title>Bruno | Dev Salesforce</title>
 
   <link rel="icon" style="border-radius: 50%" type="image/x-icon" href="/assets/img/favicon.svg">
@@ -23,7 +26,13 @@
   <!--==================== HEADER ====================-->
   <header class="header" id="header">
     <nav class="nav container">
-      <a href="#" class="nav_logo">Bruno | Dev Salesforce</a>
+
+      <a href="#" class="nav_logo"><span class="fi fi-br"></span></a>
+
+      <a href="#" class="nav_logo"><span class="fi fi-us"></span></a>
+
+      <a href="#" class="nav_logo">Salesforce Developer</a>
+
       <div class="nav_menu" id="nav-menu">
         <ul class="nav_list grid">
           <li class="nav_item">
@@ -126,7 +135,7 @@
               <div class="skills_list grid">
                 <div class="skills_data">
                   <div class="skills_titles">
-                    <h3 class="skills_name">Desenvolvimento em Apex | Triggers | Métodos Futuros | DML | Apex Assíncrono
+                    <h3 class="skills_name" id="1">Desenvolvimento em Apex | Triggers | Métodos Futuros | DML | Apex Assíncrono
                     </h3>
                     <span class="skills_number">75%</span>
                   </div>
@@ -139,7 +148,7 @@
               <div class="skills_list grid">
                 <div class="skills_data">
                   <div class="skills_titles">
-                    <h3 class="skills_name">Desenvolvimento em LWC | Java Script | HTML | CSS</h3>
+                    <h3 class="skills_name" id="2">Desenvolvimento em LWC | JavaScript | HTML | CSS</h3>
                     <span class="skills_number">75%</span>
                   </div>
                   <div class="skills_bar">
@@ -151,7 +160,7 @@
               <div class="skills_list grid">
                 <div class="skills_data">
                   <div class="skills_titles">
-                    <h3 class="skills_name">Desenvolvimento de integrações APIs REST e SOAP</h3>
+                    <h3 class="skills_name" id="3">Desenvolvimento de integrações APIs REST e SOAP</h3>
                     <span class="skills_number">75%</span>
                   </div>
                   <div class="skills_bar">
@@ -164,12 +173,12 @@
           </div>
 
           <!--==================== SKILLS 2 ====================-->
-          <div class="skills_content skills_close">
+          <div class="skills_content skills_close" id="skillsII">
             <div class="skills_header">
               <i class="uil uil-desktop skills_icon"></i>
 
               <div>
-                <h1 class="skills_title">Salesforce Administrador | Analista</h1>
+                <h1 class="skills_title" id="4">Salesforce Administrador | Analista</h1>
                 <span class="skills_subtitle">3 anos</span>
               </div>
 
@@ -434,7 +443,7 @@
             <div class="portfolio_data">
               <h3 class="portfolio_title">Trailhead</h3>
               <p class="portfolio_description">
-                Meu perfil trailblazer
+                Meu Perfil no Trailhead
               </p>
               <a href="https://www.salesforce.com/trailblazer/bsouza35" target="_blank"
                 class="button button--flex button--small portfolio_button">
@@ -444,14 +453,14 @@
             </div>
           </div>
 
-          <!--==================== PORTFOLIO 1 ====================-->
+          <!--==================== PORTFOLIO 2 ====================-->
           <div class="portfolio_content grid swiper-slide">
             <img src="./assets/img/perfil-github.png" alt="" class="portfolio_img" />
 
             <div class="portfolio_data">
-              <h3 class="portfolio_title">Github</h3>
+              <h3 class="portfolio_title">GitHub</h3>
               <p class="portfolio_description">
-                Meu perfil Github
+                Meu Perfil no GitHub
               </p>
               <a href="https://github.com/Bruno-de-Souza" target="_blank"
                 class="button button--flex button--small portfolio_button">
@@ -557,7 +566,7 @@
       </div>
 
       <p class="footer_copy">
-        &#169; Engineerings. Todos os direitos reservados.
+        &#169; Bruno Souza
       </p>
     </div>
   </footer>
@@ -571,6 +580,10 @@
 
   <!--==================== MAIN JS ====================-->
   <script src="./assets/js/main.js"></script>
+
+  <!--==================== Translate Page JS ====================-->
+  <script src="/assets/js/translate.js"></script>
+
 </body>
 
 </html>
