@@ -22,10 +22,19 @@ document.addEventListener('DOMContentLoaded', function() {
                 skillsDeveloperIII: "Development of REST/SOAP APIs integrations "
             },
             skillsII: {
-                salesforceAdministrator: "Salesforce Administrator | Analyst"
+                salesforceAdministrator: "Salesforce Administrator | Analyst",
+                skillsAdministrator: "Business requirements analysis and scalable solutions",
+                skillsAdministratorII: "Process automation using Flow Builder | Approval Process | Validation Rules | Einstein Next Best Action | Einstein Bots",
+                skillsAdministratorIII: "Perform regression and new functionality tests, impact tests and business rules"
+            },
+            qualification: {
+                title: "Qualification",
+                subtitle: "My personal journey",
+                qualificationStudy: "Education",
+                qualificationJob: "Job",
+                education: "Bachelor's Degree in Software Engineering",
+                educationUniversity: "Unicesumar - Brazil"
             }
-
-
         },
         pt: {
             title: "Bruno | Dev Salesforce",
@@ -65,7 +74,16 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('2').textContent = content[language].skills.skillsDeveloperII;
         document.getElementById('3').textContent = content[language].skills.skillsDeveloperIII;
         document.getElementById('4').textContent = content[language].skillsII.salesforceAdministrator;
+        document.getElementById('5').textContent = content[language].skillsII.skillsAdministrator;
+        document.getElementById('6').textContent = content[language].skillsII.skillsAdministratorII;
+        document.getElementById('7').textContent = content[language].skillsII.skillsAdministratorIII;
 
+        document.getElementById('8').textContent = content[language].qualification.title;
+        document.getElementById('9').textContent = content[language].qualification.subtitle;
+        document.getElementById('10').textContent = content[language].qualification.qualificationStudy;
+        document.getElementById('11').textContent = content[language].qualification.qualificationJob;
+        document.getElementById('12').textContent = content[language].qualification.education;
+        document.getElementById('13').textContent = content[language].qualification.educationUniversity;
     }
 
     document.querySelector('.fi.fi-us').addEventListener('click', function() {
