@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 home: "HOME",
                 skills: "SKILLS",
                 portfolio: "PORTFOLIO",
-                contact: "CONTACT"
+                contact: "CONTACTS"
             },
             home: {
                 title: "Bruno",
@@ -55,7 +55,24 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             portfolio: {
                 p1: "Portfolio",
-                p2: "Latest jobs"
+                p2: "Latest jobs",
+                p3: "TrailHead",
+                p4: "My trailhead profile",
+                p5: "Demonstration",
+                p6: "GitHub",
+                p7: "My GitHub profile",
+                p8: "Demonstration"
+            },
+            contact: {
+                c1: "My Contacts",
+                c2: "It will be a pleasure to assist you!",
+                c3: "Phone",
+                c4: "+55 031 98588-6636",
+                c5: "Email",
+                c6: "brunomoreiramg@gmail.com.com",
+                c7: "Location",
+                c8: "Belo Horizonte, MG - Brazil",
+                c9: "Send me a message"
             }
         },
         pt: {
@@ -87,9 +104,12 @@ document.addEventListener('DOMContentLoaded', function() {
 
         document.querySelector('.home_title').textContent = content[language].home.title;
         document.querySelector('.home_subtitle').textContent = content[language].home.subtitle;
-        document.querySelector('.button.button--flex').textContent = content[language].home.contactButton;
+        
+        const contactButton = document.getElementById('01');
+        contactButton.textContent = content[language].home.contactButton;
+        contactButton.innerHTML += ' <i class="uil uil-message button_icon"></i>';
+        
         document.querySelector('.home_scroll-name').textContent = content[language].home.down;
-
         document.querySelector('.section_title').textContent = content[language].skills.title;
         document.querySelector('.skills_title').textContent = content[language].skills.salesforceDeveloper;
         document.getElementById('1').textContent = content[language].skills.skillsDeveloper;
@@ -102,8 +122,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
         document.getElementById('8').textContent = content[language].qualification.title;
         document.getElementById('9').textContent = content[language].qualification.subtitle;
-        document.getElementById('10').textContent = content[language].qualification.qualificationStudy;
-        document.getElementById('11').textContent = content[language].qualification.qualificationJob;
+
+
+        const qualificationStudy = document.getElementById('10');
+        qualificationStudy.innerHTML = '<i class="uil uil-graduation-cap qualification_icon"></i> ' + content[language].qualification.qualificationStudy;
+        
+        const qualificationJob = document.getElementById('11');
+        qualificationJob.innerHTML = '<i class="uil uil-briefcase qualification_icon"></i> ' + content[language].qualification.qualificationJob;
+        
         document.getElementById('12').textContent = content[language].qualification.education;
         document.getElementById('13').textContent = content[language].qualification.educationUniversity;
         document.getElementById('14').textContent = content[language].qualification.adminCert;
@@ -126,6 +152,19 @@ document.addEventListener('DOMContentLoaded', function() {
 
         document.getElementById('30').textContent = content[language].portfolio.p1;
         document.getElementById('31').textContent = content[language].portfolio.p2;
+        document.getElementById('32').textContent = content[language].portfolio.p3;
+        document.getElementById('33').textContent = content[language].portfolio.p4;
+        
+        const p5 = document.getElementById('34');
+        p5.textContent = content[language].portfolio.p5;
+        p5.innerHTML += ' <i class="uil uil-arrow-right button_icon"></i>';
+        
+        document.getElementById('35').textContent = content[language].portfolio.p6;
+        document.getElementById('36').textContent = content[language].portfolio.p7;
+        
+        const p8 = document.getElementById('37');
+        p8.textContent = content[language].portfolio.p8;
+        p8.innerHTML += ' <i class="uil uil-arrow-right button_icon"></i>';
     }
 
     document.querySelector('.fi.fi-us').addEventListener('click', function() {

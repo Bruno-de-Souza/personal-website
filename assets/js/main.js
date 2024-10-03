@@ -91,16 +91,16 @@ modalCloses.forEach(modalClose => {
 /*==================== PORTFOLIO SWIPER  ====================*/
 let swiperPortfolio = new Swiper(".portfolio_container", {
   cssMode: true,
-  loop: true,
+  //loop: false,
 
   navigation: {
     nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
+    prevEl: ".swiper-button-prev"
   },
   pagination: {
     el: ".swiper-pagination",
-    clickable: true,
-  },
+    clickable: true
+  }
 });
 /*==================== TESTIMONIAL ====================*/
 let swiperTestimonial = new Swiper(".testimonial_container", {
@@ -111,13 +111,8 @@ let swiperTestimonial = new Swiper(".testimonial_container", {
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
-    dynamicBullets: true,
-  },
-  breakPoints: {
-    568: {
-      slidesPerview: 2,
-    },
-  },
+    dynamicBullets: true
+  }
 });
 /*==================== CHANGE BACKGROUND HEADER ====================*/
 function scrollHeader() {
