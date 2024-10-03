@@ -73,24 +73,97 @@ document.addEventListener('DOMContentLoaded', function() {
                 c7: "Location",
                 c8: "Belo Horizonte, MG - Brazil",
                 c9: "Send me a message"
+            },
+            footer: {
+                title: "Bruno",
+                subtitle: "Software Engineer",
+                skills: "Skills",
+                portfolio: "Portfolio",
+                contact: "Contacts",
+                copy: "Bruno Souza"
             }
         },
         pt: {
-            title: "Bruno | Dev Salesforce",
+            title: "Bruno | Salesforce Developer",
             nav: {
                 home: "INÍCIO",
                 skills: "HABILIDADES",
-                portfolio: "PORTIFÓLIO",
+                portfolio: "PORTFÓLIO",
                 contact: "CONTATOS"
             },
             home: {
                 title: "Bruno",
                 subtitle: "Engenheiro de Software",
-                contactButton: "Contato"
+                contactButton: "Contato",
+                down: "IR PARA BAIXO"
             },
             skills: {
                 title: "Habilidades",
-                salesforceDeveloper: "SalesForce Developer"
+                salesforceDeveloper: "Desenvolvedor SalesForce",
+                skillsDeveloper: "Desenvolvimento EM Apex | Triggers | Metódos Futuros | DML | Apex Assíncrono",
+                skillsDeveloperII: "Desenvolvimento em LWC | JavaScript | HTML | CSS",
+                skillsDeveloperIII: "Desenvolvimento de integrações APIs REST/SOAP"
+            },
+            skillsII: {
+                salesforceAdministrator: "Salesforce Administrador | Analista",
+                skillsAdministrator: "Análise de requisitos de negócios e soluções escaláveis",
+                skillsAdministratorII: "Automação de processos usando Flow Builder | Processo de Aprovação | Regras de Validação | Einstein Next Best Action | Einstein Bots",
+                skillsAdministratorIII: "Realizar testes de regressão e de novas funcionalidades, testes de impacto e regras de negócio"
+            },
+            qualification: {
+                title: "Qualification",
+                subtitle: "My personal journey",
+                qualificationStudy: "Education",
+                qualificationJob: "Job",
+                education: "Bachelor's Degree in Software Engineering",
+                educationUniversity: "Unicesumar - Brazil",
+                adminCert: "Admin Certified",
+                sfCert: "Salesforce Certified",
+                dpCert: "DP900 Certified",
+                dpMS: "Microsoft Certified",
+                az900: "AZ900 Certified",
+                azMS: "Microsoft Certified",
+                ai900: "AI900 Certified",
+                ai900MS: "Microsoft Certified",
+                computerNetworkers: "Computer Networks",
+                computerS: "Senac MG - Brazil"
+            },
+            jobs: {
+                j1: "Salesforce Developer Analyst",
+                j2: "ArcelorMittal Systems",
+                j3: "Computer Technician",
+                j4: "TechInfor",
+                j5: "Telecommunications Technician",
+                j6: "Claro - Brazil"
+            },
+            portfolio: {
+                p1: "Portfolio",
+                p2: "Latest jobs",
+                p3: "TrailHead",
+                p4: "My trailhead profile",
+                p5: "Demonstration",
+                p6: "GitHub",
+                p7: "My GitHub profile",
+                p8: "Demonstration"
+            },
+            contact: {
+                c1: "My Contacts",
+                c2: "It will be a pleasure to assist you!",
+                c3: "Phone",
+                c4: "+55 031 98588-6636",
+                c5: "Email",
+                c6: "brunomoreiramg@gmail.com.com",
+                c7: "Location",
+                c8: "Belo Horizonte, MG - Brazil",
+                c9: "Send me a message"
+            },
+            footer: {
+                title: "Bruno",
+                subtitle: "Software Engineer",
+                skills: "Skills",
+                portfolio: "Portfolio",
+                contact: "Contacts",
+                copy: "Bruno Souza"
             }
         }
     };
@@ -165,6 +238,28 @@ document.addEventListener('DOMContentLoaded', function() {
         const p8 = document.getElementById('37');
         p8.textContent = content[language].portfolio.p8;
         p8.innerHTML += ' <i class="uil uil-arrow-right button_icon"></i>';
+
+        document.getElementById('38').textContent = content[language].contact.c1;
+        document.getElementById('39').textContent = content[language].contact.c2;
+        document.getElementById('40').textContent = content[language].contact.c3;
+        document.getElementById('41').textContent = content[language].contact.c4;
+        document.getElementById('42').textContent = content[language].contact.c5;
+        document.getElementById('43').textContent = content[language].contact.c6;
+        document.getElementById('44').textContent = content[language].contact.c7;
+        document.getElementById('45').textContent = content[language].contact.c8;
+        
+        const c9 = document.getElementById('46');
+        c9.textContent = content[language].contact.c9;
+        c9.innerHTML += ' <i class="uil uil-message button_icon"></i>';
+
+        document.getElementById('47').textContent = content[language].footer.title;
+        document.getElementById('48').textContent = content[language].footer.subtitle;
+        document.getElementById('49').textContent = content[language].footer.skills;
+        document.getElementById('50').textContent = content[language].footer.portfolio;
+        document.getElementById('51').textContent = content[language].footer.contact;
+        
+        const copy = document.getElementById('52');
+        copy.innerHTML = '&copy ' + content[language].footer.copy;
     }
 
     document.querySelector('.fi.fi-us').addEventListener('click', function() {
