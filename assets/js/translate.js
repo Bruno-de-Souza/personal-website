@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 j2: "ArcelorMittal Systems",
                 j3: "Computer Technician",
                 j4: "TechInfor",
-                j5: "Telecommunications Technician",
+                j5: "Telecommunication Technician",
                 j6: "Claro - Brazil"
             },
             portfolio: {
@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 c3: "Phone",
                 c4: "+55 031 98588-6636",
                 c5: "Email",
-                c6: "brunomoreiramg@gmail.com.com",
+                c6: "brunomoreiramg@gmail.com",
                 c7: "Location",
                 c8: "Belo Horizonte, MG - Brazil",
                 c9: "Send me a message"
@@ -152,7 +152,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 c3: "Telefone",
                 c4: "+55 031 98588-6636",
                 c5: "Email",
-                c6: "brunomoreiramg@gmail.com.com",
+                c6: "brunomoreiramg@gmail.com",
                 c7: "Localização",
                 c8: "Belo Horizonte, MG - Brasil",
                 c9: "Enviar mensagem"
