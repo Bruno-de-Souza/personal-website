@@ -79,6 +79,16 @@ body.dark-theme {
   --scroll-bar-color: hsl(var(--hue-color), 12%, 48%);
   --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%);
 }
+
+/*========== Translates Buttons =========*/
+
+.translates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
 /*========== Button Dark/Light ==========*/
 .nav_btns {
   display: flex;
