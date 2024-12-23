@@ -36,6 +36,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 educationUniversity: "Unicesumar - Brazil",
                 adminCert: "Admin Certified",
                 sfCert: "Salesforce Certified",
+                adminCert2:"App Builder Certified",
+                sfCert2: "Salesforce Certified",
                 dpCert: "DP900 Certified",
                 dpMS: "Microsoft Certified",
                 az900: "AZ900 Certified",
@@ -119,6 +121,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 educationUniversity: "Unicesumar - Brasil",
                 adminCert: "Admin Certificado",
                 sfCert: "Salesforce Certificado",
+                adminCert2:"App Builder Certificado",
+                sfCert2: "Salesforce Certificado",
                 dpCert: "DP900 Certificado",
                 dpMS: "Microsoft Certificado",
                 az900: "AZ900 Certificado",
@@ -207,6 +211,8 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById('13').textContent = content[language].qualification.educationUniversity;
         document.getElementById('14').textContent = content[language].qualification.adminCert;
         document.getElementById('15').textContent = content[language].qualification.sfCert;
+        document.getElementById('60').textContent = content[language].qualification.adminCert2;
+        document.getElementById('61').textContent = content[language].qualification.sfCert2;
         document.getElementById('16').textContent = content[language].qualification.dpCert;
         document.getElementById('17').textContent = content[language].qualification.dpMS;
         document.getElementById('18').textContent = content[language].qualification.az900;
